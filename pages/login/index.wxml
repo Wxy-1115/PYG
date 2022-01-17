@@ -1,0 +1,2 @@
+<button wx:if="{{canIUseGetUserProfile}}" bindtap="getUserProfile" type="primary" plain>登录</button>
+<button wx:else open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 登录 </button>
